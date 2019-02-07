@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CameraController.cs" />
     <Compile Include="Assets\Scripts\test.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/farza/Documents/VR seminar/TUVR-Team1/NonFlyingSpagettiMonster/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
