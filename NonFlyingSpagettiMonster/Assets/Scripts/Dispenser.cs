@@ -14,6 +14,7 @@ public class Dispenser : MonoBehaviour
     public void Dispense(int itemNumber)
     {
         // Dispense an object here using the Instantiate<> function
-        Instantiate<GameObject>()
+        GameObject newGameObject = Instantiate<GameObject>(inventoryItems[itemNumber]);
+        newGameObject.transform.position = dispensePosition.position;
     }
 }
