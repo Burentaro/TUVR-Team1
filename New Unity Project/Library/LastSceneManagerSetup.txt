@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/NPC/Documents/TUVR-Team1/NonFlyingSpagettiMonster/Assets/DispenserTutorial.unity
+  isLoaded: 1
+  isActive: 1
