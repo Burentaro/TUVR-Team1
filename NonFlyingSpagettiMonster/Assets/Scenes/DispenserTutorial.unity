@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028437, g: 0.2257154, b: 0.30692208, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028474, g: 0.22571602, b: 0.3069231, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1144,6 +1144,16 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 94
       objectReference: {fileID: 0}
+    - target: {fileID: 7337697168240466259, guid: 3204107938c32fc408a7a2ed18742088,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337697168240466259, guid: 3204107938c32fc408a7a2ed18742088,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3204107938c32fc408a7a2ed18742088, type: 3}
 --- !u!1 &1302813398 stripped
@@ -1687,7 +1697,12 @@ PrefabInstance:
     - target: {fileID: 631948186942829393, guid: f9b092696c5cc08488665c15af2d85fe,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.8989575
+      value: 1.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 631948186942829393, guid: f9b092696c5cc08488665c15af2d85fe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.896
       objectReference: {fileID: 0}
     - target: {fileID: 1771109558584091672, guid: f9b092696c5cc08488665c15af2d85fe,
         type: 3}
@@ -1703,6 +1718,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Constraints
       value: 94
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841802964047760225, guid: f9b092696c5cc08488665c15af2d85fe,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841802964047760225, guid: f9b092696c5cc08488665c15af2d85fe,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841802964047760225, guid: f9b092696c5cc08488665c15af2d85fe,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9b092696c5cc08488665c15af2d85fe, type: 3}
